@@ -1,0 +1,3 @@
+vhdl work "sum.vhd"
+vhdl work "clock.vhd"
+vhdl work "ula.vhd"

@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Tue May 10 14:37:43 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "s<0>" LOCATE = SITE "V8" LEVEL 1;
+PIN s<0>_pin<0> = BEL "s<0>" PINNAME PAD;
+PIN "s<0>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "s<1>" LOCATE = SITE "U10" LEVEL 1;
+PIN s<1>_pin<0> = BEL "s<1>" PINNAME PAD;
+PIN "s<1>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "s<2>" LOCATE = SITE "U8" LEVEL 1;
+PIN s<2>_pin<0> = BEL "s<2>" PINNAME PAD;
+PIN "s<2>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "z<0>" LOCATE = SITE "V19" LEVEL 1;
+COMP "z<1>" LOCATE = SITE "V20" LEVEL 1;
+COMP "z<2>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "n<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "z<3>" LOCATE = SITE "W21" LEVEL 1;
+COMP "n<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "E12" LEVEL 1;
+NET "clk_in_BUFGP/IBUFG" PERIOD = 20 ns HIGH 50%;
+OFFSET = IN 10 ns VALID 20 ns BEFORE COMP "clk_in";
+OFFSET = OUT 20 ns AFTER COMP "clk_in";
+SCHEMATIC END;
+

@@ -1,0 +1,41 @@
+V3 20
+FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/clock.vhd 2016/05/10.14:25:39 O.87xd
+EN work/clock 1462903289 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/clock.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/clock/Behavioral 1462903290 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/clock.vhd \
+      EN work/clock 1462903289
+FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_and.vhd 2016/05/03.14:48:02 O.87xd
+EN work/SIMPLE_AND 1462297801 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_and.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SIMPLE_AND/simple_and_behav 1462297802 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_and.vhd \
+      EN work/SIMPLE_AND 1462297801
+FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_or.vhd 2016/05/03.14:48:17 O.87xd
+EN work/simple_or 1462297803 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_or.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/simple_or/Behavioral 1462297804 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_or.vhd \
+      EN work/simple_or 1462297803
+FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd 2016/05/10.14:59:12 O.87xd
+EN work/FULLADDER 0 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/FULLADDER/fulladder_behav 0 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd \
+      EN work/FULLADDER 0
+EN work/FOURBITADD 0 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd
+AR work/FOURBITADD/fouradder_structure 0 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd \
+      EN work/FOURBITADD 0 CP FULLADDER
+FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.vhd 2016/05/10.14:37:20 O.87xd
+EN work/ula 1462901850 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ula/Behavioral 1462901851 \
+      FL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.vhd \
+      EN work/ula 1462901850 CP clock CP FOURBITADD

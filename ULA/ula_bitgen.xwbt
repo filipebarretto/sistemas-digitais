@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.ncd
+OUTFILE=/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-4fgg484
+WORKINGDIR=/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA
+LICENSE=WebPack
+USER_INFO=206010622_0_0_957

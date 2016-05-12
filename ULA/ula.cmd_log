@@ -1,0 +1,209 @@
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ports.ucf -p xc3s700an-fgg484-4 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ports.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 
+xst -intstyle ise -ifn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.xst" -ofn "/home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.syr" 

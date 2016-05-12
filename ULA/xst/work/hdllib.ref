@@ -1,0 +1,10 @@
+EN clock NULL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/clock.vhd sub00/vhpl06 1462903289
+AR simple_and simple_and_behav /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_and.vhd sub00/vhpl03 1462297802
+AR clock behavioral /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/clock.vhd sub00/vhpl07 1462903290
+EN fulladder NULL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd sub00/vhpl08 1462903291
+EN simple_and NULL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_and.vhd sub00/vhpl02 1462297801
+EN ula NULL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.vhd sub00/vhpl00 1462901850
+AR ula behavioral /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/ula.vhd sub00/vhpl01 1462901851
+AR fulladder fulladder_behav /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/sum.vhd sub00/vhpl09 1462903292
+AR simple_or behavioral /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_or.vhd sub00/vhpl05 1462297804
+EN simple_or NULL /home/admin/Documents/sl2/filipe-joao/relatorio-01/ULA/simple_or.vhd sub00/vhpl04 1462297803
